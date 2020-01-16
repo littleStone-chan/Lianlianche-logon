@@ -8,7 +8,7 @@ element_logon = wd.find_element_by_css_selector('.el-form-item__content button')
 element_account.send_keys('18900242712')
 element_password.send_keys('123456')
 element_logon.click()
-#打开车金融管理菜单
+#打开车金融管理菜单  111
 #设置最大等待时间10秒
 wd.implicitly_wait(10)
 element_menu1 = wd.find_element_by_css_selector('.menu-wrapper > li:nth-child(5) > .el-submenu__title > i')
